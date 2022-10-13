@@ -12,7 +12,7 @@ for (let botao of btnNumeros) {
 }
 
 function cliqueNumero(event) {
-    if (isNaN(visor.innerHTML+event.target.innerHTML) === false)
+    if (isNaN(visor.innerHTML) === false)
         visor.innerHTML = visor.innerHTML + event.target.innerHTML;
     else 
         visor.innerHTML = event.target.innerHTML;
