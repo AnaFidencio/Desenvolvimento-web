@@ -115,8 +115,8 @@ function pressionouTecla(event) {
     }else if (event.key === "Enter"){
         document.getElementById("botaoIgual").click();
     }else if (event.key === "."){
-        document.getElementById("botao-ponto").click();
+        document.getElementById("botao-pontos").click();
     }else if (event.key === ","){
-    document.getElementById("botao-ponto").click();
+    document.getElementById("botao-pontos").click();
     }
 }
